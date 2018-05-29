@@ -86,7 +86,7 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate {
         if let data = UIImagePNGRepresentation(image) {
             let fileName = getDocumentsDirectory().appendingPathComponent("image.png")
             try? data.write(to: fileName)
-            let modelFile = Resnet50()
+            let modelFile = MobileNet()
             let model = try! VNCoreMLModel(for: modelFile.model)
             let request = VNCoreMLRequest(model: model, completionHandler:
                 finalGuess)

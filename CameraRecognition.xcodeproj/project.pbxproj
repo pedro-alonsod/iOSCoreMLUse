@@ -15,7 +15,6 @@
 		2E49E9382074313F00DA5335 /* CameraRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E49E9372074313F00DA5335 /* CameraRecognitionTests.swift */; };
 		2E49E9442074364B00DA5335 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2E49E9422074364900DA5335 /* SqueezeNet.mlmodel */; };
 		2E49E9452074364B00DA5335 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2E49E9432074364A00DA5335 /* MobileNet.mlmodel */; };
-		2E49E947207439BA00DA5335 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2E49E946207439BA00DA5335 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,6 @@
 		2E49E9392074313F00DA5335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E49E9422074364900DA5335 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 		2E49E9432074364A00DA5335 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
-		2E49E946207439BA00DA5335 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +86,6 @@
 				2E49E9262074313E00DA5335 /* Main.storyboard */,
 				2E49E9432074364A00DA5335 /* MobileNet.mlmodel */,
 				2E49E9422074364900DA5335 /* SqueezeNet.mlmodel */,
-				2E49E946207439BA00DA5335 /* Resnet50.mlmodel */,
 				2E49E9292074313F00DA5335 /* Assets.xcassets */,
 				2E49E92B2074313F00DA5335 /* LaunchScreen.storyboard */,
 				2E49E92E2074313F00DA5335 /* Info.plist */,
@@ -206,7 +203,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E49E947207439BA00DA5335 /* Resnet50.mlmodel in Sources */,
 				2E49E9452074364B00DA5335 /* MobileNet.mlmodel in Sources */,
 				2E49E9252074313E00DA5335 /* ViewController.swift in Sources */,
 				2E49E9442074364B00DA5335 /* SqueezeNet.mlmodel in Sources */,
